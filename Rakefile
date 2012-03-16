@@ -53,6 +53,7 @@ end
 def download_cassandra url, local_file
   unless File.exist? local_file
     puts "Download: #{url} => #{local_file}"
+    system "wget '#{url}'"
   end
 end
 

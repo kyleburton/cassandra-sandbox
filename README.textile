@@ -1,1 +1,13 @@
 h1. Cassandra Proof of Concept
+
+
+h1. References
+
+h1. Cassandra
+
+http://cassandra.apache.org/
+
+h2. Client Libraries
+
+"Hector":http://rantav.github.com/hector/build/html/index.html - high level Java library.
+"Thera":https://github.com/mpenet/thera/ - Clojure library (no longer actively developed)
